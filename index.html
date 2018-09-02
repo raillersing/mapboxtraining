@@ -18,18 +18,18 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoicmFpbGxlcnNpbmciLCJhIjoiY2prd3dibXpwMDI3bDNvb2RxcTFpbjlxcSJ9.zvhB6BoBzjIN3D2ikl5_0w';
 
 // Set bounds to Zanzibar, Zanzibar
-var bounds = [
+/*var bounds = [
     [ 38.97949218749999, -6.555474602201876], // Southwest coordinates
     [ 39.67437744140625, -5.654252143030242]  // Northeast coordinates
-];
+];*/
 
 var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/raillersing/cjljbzuqn1wpk2rqra3tmk64q', // stylesheet location
-    center: [39.31732177734375, -6.121438675500974], // starting position [lng, lat]
+    center: [-16.494383, 16.039434], // starting position [lng, lat]
     pitch: 60,
     zoom: 9, // starting zoom*/
-    maxBounds: bounds // Sets bounds as max
+    //maxBounds: bounds // Sets bounds as max
 });
 
 // Add zoom and rotation controls to the map.
