@@ -48,7 +48,7 @@ map.addControl(new mapboxgl.NavigationControl());
       var popup = new mapboxgl.Popup({ offset: [0, -15] })
         .setLngLat(feature.geometry.coordinates)
         .setHTML('<h3>' + feature.properties.Heigth2 + '</h3><p>' + feature.properties.addr_stree + '</p>')
-        .setLngLat(feature.geometry.coordinates)
+        //.setLngLat(feature.geometry.coordinates)
         .addTo(map);
       });
 
